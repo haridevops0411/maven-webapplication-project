@@ -1,5 +1,5 @@
 
-				<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
@@ -22,9 +22,9 @@
 		<spring.version>5.3.34</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://43.204.32.156:9000/</sonar.host.url>
+		<sonar.host.url>http://15.207.54.73:8639/kkfunda/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>raj123</sonar.password> 
+		<sonar.password>password</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,14 +98,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>raja release nexus repository</name>
-	      <url>http://43.204.234.56:8081/repository/maven-release/>/</url>
+	      <name>KK FUNDA Releases Nexus Repository</name>
+	      <url>http://172.31.40.189:8081/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>raja Snapshot Nexus repository </name>
-	      <url>http://43.204.234.56:8081/repository/maven-snapshot/>/</url>
+	      <name>KK FUNDA Snapshot Nexus Repository </name>
+	      <url>http://172.31.40.189:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
