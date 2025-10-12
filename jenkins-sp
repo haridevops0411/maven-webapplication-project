@@ -29,7 +29,7 @@ node {
         echo "Deploying WAR file using curl..."
 
         sh """
-            curl -u kkfunda:kkfunda \
+            curl -u vim:vim123 \
             --upload-file /var/lib/jenkins/workspace/jio-sp/target/maven-web-application.war \
            "http://3.110.49.64:8080/manager/text/deploy?path=/maven-web-application&update=true"
         """
